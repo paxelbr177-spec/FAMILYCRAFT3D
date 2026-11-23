@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Family Craft 3D | Estúdio de Impressão 3D, Colecionáveis & Linha Sensorial TEA</title>
+
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Family Craft 3D - Estúdio de impressão 3D no Vale do Paraíba. Figuras geek pintadas à mão, brinquedos sensoriais e recursos terapêuticos TEA, organizadores modernos e projetos personalizados. Envio para todo o Brasil." />
+  <meta name="keywords" content="impressão 3d, family craft, autismo tea, brinquedos sensoriais, painel de rotinas, deadpool chibi, spiderman chibi, organizadores maquiagem, vale do paraiba, atacado 3d" />
+  <meta name="author" content="Family Craft 3D" />
+  <meta name="theme-color" content="#0a0d14" />
+
+  <!-- Open Graph / WhatsApp / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Family Craft 3D | Torne suas ideias realidade" />
+  <meta property="og:description" content="Catálogo online e estoque de peças 3D colecionáveis, brinquedos terapêuticos TEA, organizadores e luminárias. Peça direto no WhatsApp!" />
+  <meta property="og:image" content="assets/images/banner.png" />
+  <meta property="og:url" content="https://familycraft3d.com" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Family Craft 3D | Torne suas ideias realidade" />
+  <meta name="twitter:description" content="Estúdio de impressão 3D, pintura manual artística e recursos terapêuticos para TEA." />
+  <meta name="twitter:image" content="assets/images/banner.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+  <link rel="apple-touch-icon" href="assets/images/logo.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ==========================================================================
+       NAVBAR
+       ========================================================================== -->
+  <header class="navbar">
+    <div class="container">
+      <a href="#home" class="nav-brand">
+        <img src="assets/images/logo.png" alt="Family Craft 3D Logo" width="44" height="44" />
+        <div class="nav-brand-text">
+          <span>Family Craft</span>
+          <span>3D Printing Studio</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active" data-i18n="nav_home">Início</a></li>
+          <li><a href="#catalogo" class="nav-link" data-i18n="nav_catalog">Catálogo & Estoque</a></li>
+          <li><a href="#tea" class="nav-link" data-i18n="nav_tea">Linha TEA / Sensorial</a></li>
+          <li><a href="#encomenda" class="nav-link" data-i18n="nav_custom">Sob Encomenda</a></li>
+          <li><a href="#estudio" class="nav-link" data-i18n="nav_about">O Estúdio</a></li>
+          <li><a href="#duvidas" class="nav-link" data-i18n="nav_faq">Dúvidas</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Language Switcher Toggle -->
+        <button class="lang-btn" id="langToggleBtn" title="Mudar Idioma / Cambiar Idioma">
+          <span>🇧🇷</span> PT / ES
+        </button>
+
+        <!-- Cart Button -->
+        <button class="cart-toggle-btn" id="openCartBtn" title="Ver Carrinho / Ver Pedido">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-badge" id="cartBadge" style="display:none;">0</span>
+        </button>
+
+        <!-- Mobile Nav Toggle -->
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Abrir Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div>
+            <span class="badge badge-glow" data-i18n="hero_badge">Estúdio de Impressão 3D & Arte Manual</span>
+          </div>
+          <h1 class="hero-title">
+            <span class="gradient-text">Torne suas ideias realidade</span> em 3D.
+          </h1>
+          <p class="hero-subtitle" data-i18n="hero_subtitle">
+            Figuras colecionáveis pintadas à mão, brinquedos sensoriais e recursos terapêuticos para TEA, organizadores modernos e projetos sob medida no Vale do Paraíba com envio para todo o Brasil.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#catalogo" class="btn btn-primary">
+              <i class="fa-solid fa-cube"></i> <span data-i18n="hero_cta_catalog">Ver Catálogo Completo</span>
+            </a>
+            <a href="#encomenda" class="btn btn-outline">
+              <i class="fa-solid fa-wand-magic-sparkles"></i> <span data-i18n="hero_cta_custom">Pedir Orçamento Exclusivo</span>
+            </a>
+            <a href="https://wa.me/5512991386257?text=Ol%C3%A1%20Family%20Craft!%20Gostaria%20de%20saber%20mais%20sobre%20seus%20produtos." target="_blank" rel="noopener" class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i> <span data-i18n="nav_whatsapp">Fale no WhatsApp</span>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-value">50+</span>
+              <span class="stat-label" data-i18n="hero_stat_models">Modelos Exclusivos</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">100%</span>
+              <span class="stat-label" data-i18n="hero_stat_painted">Pintado à Mão</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">BR</span>
+              <span class="stat-label" data-i18n="hero_stat_wholesale">Varejo & Atacado</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-image-wrap">
+            <img src="assets/images/logo.png" alt="Family Craft 3D Logo Master" />
+            <div class="floating-pill pill-1">
+              <i class="fa-solid fa-palette" style="color:var(--accent-pink);"></i>
+              <span>Pintura Artesanal</span>
+            </div>
+            <div class="floating-pill pill-2">
+              <i class="fa-solid fa-brain" style="color:var(--accent-purple);"></i>
+              <span>Linha Sensorial TEA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TRUST FEATURES BAR
+       ========================================================================== -->
+  <section class="features-bar">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fa-solid fa-layer-group"></i></div>
+          <div class="feature-text">
+            <h4 data-i18n="feature_1_title">Alta Precisão & Acabamento</h4>
+            <p data-i18n="feature_1_desc">Camadas imperceptíveis e pintura artesanal</p>
+          </div>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+          <div class="feature-text">
+            <h4 data-i18n="feature_2_title">Linha Sensorial & TEA</h4>
+            <p data-i18n="feature_2_desc">Aprovado para foco, ansiedade e terapia</p>
+          </div>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <div class="feature-text">
+            <h4 data-i18n="feature_3_title">Envio Rápido p/ Todo Brasil</h4>
+            <p data-i18n="feature_3_desc">Embalagem reforçada e rastreamento</p>
+          </div>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fa-solid fa-lightbulb"></i></div>
+          <div class="feature-text">
+            <h4 data-i18n="feature_4_title">Projetos Personalizados</h4>
+            <p data-i18n="feature_4_desc">Traga seu arquivo STL ou sua ideia</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CATALOG / PRODUCTS SECTION
+       ========================================================================== -->
+  <section class="catalog-section" id="catalogo">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-glow" data-i18n="cat_badge">Estoque & Catálogo Oficial</span>
+        <h2 class="section-title" data-i18n="cat_title">Explore Nossas Criações</h2>
+        <p class="section-desc" data-i18n="cat_desc">
+          Escolha entre produtos à pronta entrega e modelos feitos sob encomenda com suas cores preferidas.
+        </p>
+      </div>
+
+      <div class="catalog-controls">
+        <!-- Filter Category Tabs -->
+        <div class="filter-tabs" id="filterTabs">
+          <button class="filter-btn active" data-category="all" data-i18n="tab_all">Todos os Produtos</button>
+          <button class="filter-btn" data-category="sensorial" data-i18n="tab_sensorial">Sensorial & TEA</button>
+          <button class="filter-btn" data-category="geek" data-i18n="tab_geek">Geek & Pintados à Mão</button>
+          <button class="filter-btn" data-category="organizadores" data-i18n="tab_organizadores">Organizadores & Casa</button>
+          <button class="filter-btn" data-category="decor" data-i18n="tab_decor">Decoração & Arte</button>
+          <button class="filter-btn" data-category="natal" data-i18n="tab_natal">Luminárias & Natal</button>
+          <button class="filter-btn" data-category="instock" data-i18n="tab_instock">⚡ Pronta Entrega</button>
+        </div>
+
+        <!-- Search and Sort Toolbar -->
+        <div class="toolbar-bar">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" class="search-input" id="catalogSearchInput" placeholder="Buscar por nome, categoria ou tema (ex: homem aranha, cubo, organizador)..." />
+            <button class="clear-search-btn" id="clearSearchBtn" title="Limpar busca">
+              <i class="fa-solid fa-circle-xmark"></i>
+            </button>
+          </div>
+
+          <div class="sort-select-wrap">
+            <label for="catalogSortSelect"><i class="fa-solid fa-arrow-down-short-wide"></i> Ordenar:</label>
+            <select class="sort-select" id="catalogSortSelect">
+              <option value="featured" data-i18n="sort_featured">Destaques</option>
+              <option value="price-asc" data-i18n="sort_price_asc">Menor Preço</option>
+              <option value="price-desc" data-i18n="sort_price_desc">Maior Preço</option>
+              <option value="name" data-i18n="sort_name">Nome (A-Z)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsGrid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TEA / SENSORY SHOWCASE SECTION
+       ========================================================================== -->
+  <section class="tea-section" id="tea">
+    <div class="container">
+      <div class="tea-grid">
+        <div class="tea-showcase-img">
+          <img src="assets/images/painel-rotina-6.webp" alt="Painel de Rotinas Visuais TEA Family Craft 3D" />
+          <div class="tea-badge-float">
+            <strong>Painel de Rotinas Visuais</strong><br />
+            <span style="font-size:0.85rem; color:var(--text-muted);">6 e 8 Janelas Deslizantes Interativas</span>
+          </div>
+        </div>
+
+        <div class="tea-content">
+          <span class="badge badge-purple" data-i18n="tea_badge">Especial Desenvolvimento Infantil & Neurodiversidade</span>
+          <h2 class="section-title" style="margin-top:0.85rem;" data-i18n="tea_title">Linha Terapêutica, Sensorial & TEA</h2>
+          <p class="section-desc" data-i18n="tea_desc">
+            Nossos produtos sensoriais e painéis de rotinas visuais foram desenvolvidos para auxiliar crianças e adultos na regulação emocional, alívio de estresse, foco e previsibilidade diária.
+          </p>
+
+          <ul class="tea-features-list">
+            <li class="tea-feature-item">
+              <i class="fa-solid fa-clipboard-check"></i>
+              <div>
+                <h4 data-i18n="tea_item1_title">Painéis de Rotina Visual Interativos</h4>
+                <p data-i18n="tea_item1_desc">Com 6 ou 8 janelas deslizantes que conferem autonomia à criança para acompanhar e concluir tarefas do dia a dia.</p>
+              </div>
+            </li>
+            <li class="tea-feature-item">
+              <i class="fa-solid fa-hand-sparkles"></i>
+              <div>
+                <h4 data-i18n="tea_item2_title">Fidgets Cinéticos & Táteis</h4>
+                <p data-i18n="tea_item2_desc">Cubos infinitos, chaveiros com relevos e empanadinhas espirais que acalmam as mãos e promovem a concentração.</p>
+              </div>
+            </li>
+            <li class="tea-feature-item">
+              <i class="fa-solid fa-shield-heart"></i>
+              <div>
+                <h4 data-i18n="tea_item3_title">Materiais Atóxicos & Seguros</h4>
+                <p data-i18n="tea_item3_desc">Produzidos em PLA biodegradável ecológico com cantos arredondados e alta durabilidade.</p>
+              </div>
+            </li>
+          </ul>
+
+          <a href="#catalogo" class="btn btn-primary" onclick="document.querySelector('.filter-btn[data-category=\'sensorial\']')?.click()">
+            <i class="fa-solid fa-shapes"></i> <span data-i18n="tea_btn_order">Ver Toda a Linha Sensorial</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CUSTOM 3D PRINTING (ORÇAMENTOS SOB MEDIDA)
+       ========================================================================== -->
+  <section class="custom-quote-section" id="encomenda">
+    <div class="container">
+      <div class="quote-card">
+        <div class="quote-info">
+          <span class="badge badge-glow" data-i18n="quote_badge">Serviço Sob Demanda</span>
+          <h3 data-i18n="quote_title">Imprima Sua Própria Ideia em 3D</h3>
+          <p data-i18n="quote_desc">
+            Tem um arquivo 3D (.STL, .3MF, .OBJ) do Thingiverse, Printables, MakerWorld ou uma necessidade específica para sua empresa ou festa? Nós orçamos e imprimimos para você!
+          </p>
+
+          <div class="quote-steps">
+            <div class="quote-step">
+              <span>1</span>
+              <p data-i18n="quote_step1">Envie o link do modelo ou descreva seu projeto</p>
+            </div>
+            <div class="quote-step">
+              <span>2</span>
+              <p data-i18n="quote_step2">Escolha material, cores e acabamento</p>
+            </div>
+            <div class="quote-step">
+              <span>3</span>
+              <p data-i18n="quote_step3">Receba orçamento detalhado no WhatsApp em minutos</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="quote-form" id="customQuoteForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="quoteName" data-i18n="form_name">Seu Nome</label>
+              <input type="text" id="quoteName" class="form-input" placeholder="Ex: Lucas Silva" required />
+            </div>
+            <div class="form-group">
+              <label for="quotePhone" data-i18n="form_phone">WhatsApp com DDD</label>
+              <input type="tel" id="quotePhone" class="form-input" placeholder="Ex: (12) 99138-6257" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteMaterial" data-i18n="form_material">Material Preferido</label>
+            <select id="quoteMaterial" class="form-select">
+              <option value="PLA (Ecológico / Decorativo)" data-i18n="form_material_pla">PLA (Geral / Decorativo / Ecológico)</option>
+              <option value="PETG (Resistente / Água / Calor)" data-i18n="form_material_petg">PETG (Resistente / Água / Calor)</option>
+              <option value="Resina Ultra Detalhada" data-i18n="form_material_resin">Resina Ultra Detalhada</option>
+              <option value="Preciso de Recomendação" data-i18n="form_material_unsure">Preciso de Recomendação</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="quoteLink" data-i18n="form_link">Link do Modelo ou Ideia</label>
+            <input type="url" id="quoteLink" class="form-input" placeholder="https://makerworld.com/models/... ou Thingiverse" />
+          </div>
+
+          <div class="form-group">
+            <label for="quoteDetails" data-i18n="form_details">Detalhes (Dimensões, cores, quantidade)</label>
+            <textarea id="quoteDetails" class="form-textarea" rows="3" placeholder="Ex: Gostaria de imprimir um suporte de fone na cor preta com 18cm de altura..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-whatsapp" style="margin-top:0.5rem;">
+            <i class="fa-brands fa-whatsapp"></i> <span data-i18n="btn_send_quote">Enviar Projeto via WhatsApp</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ABOUT SECTION
+       ========================================================================== -->
+  <section class="about-section" id="estudio">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-banner-wrap">
+          <img src="assets/images/banner.webp" alt="Family Craft 3D Studio Banner" />
+        </div>
+
+        <div class="about-content">
+          <span class="badge badge-glow" data-i18n="about_badge">Nossa História</span>
+          <h2 class="section-title" style="margin-top:0.85rem;" data-i18n="about_title">Family Craft: Paixão por Criar e Transformar</h2>
+          <p class="section-desc" style="margin-bottom:1.25rem;" data-i18n="about_p1">
+            A Family Craft nasceu no Vale do Paraíba como um estúdio familiar apaixonado pela magia da manufatura aditiva. Acreditamos que a impressão 3D é uma ponte entre a imaginação e o mundo real.
+          </p>
+          <p class="section-desc" style="margin-bottom:2rem;" data-i18n="about_p2">
+            Cada peça que sai da nossa farm de impressão é inspecionada, tratada e, quando aplicável, pintada à mão com todo o carinho e dedicação artesanal. Atendemos clientes particulares, profissionais de saúde e empresas que buscam brindes personalizados de alto padrão.
+          </p>
+
+          <div style="display:flex; flex-wrap:wrap; gap:1rem;">
+            <a href="https://instagram.com/familycraft.3d" target="_blank" rel="noopener" class="btn btn-outline">
+              <i class="fa-brands fa-instagram"></i> @familycraft.3d
+            </a>
+            <a href="https://tiktok.com/@familycraft236" target="_blank" rel="noopener" class="btn btn-outline">
+              <i class="fa-brands fa-tiktok"></i> @familycraft236
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FAQ SECTION
+       ========================================================================== -->
+  <section class="faq-section" id="duvidas">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-glow" data-i18n="faq_badge">Perguntas Frequentes</span>
+        <h2 class="section-title" data-i18n="faq_title">Tire Suas Dúvidas</h2>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq_q1">Como faço para encomendar um produto?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a1">Você pode adicionar os itens desejados ao carrinho neste site e clicar em "Finalizar Pedido via WhatsApp", ou clicar diretamente no botão de WhatsApp em qualquer produto. Você será direcionado para uma conversa com nossa equipe já com a lista do seu pedido pronta!</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq_q2">Vocês enviam para todo o Brasil?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a2">Sim! Enviamos para todo o território nacional via Correios (PAC / Sedex) e transportadoras. Para clientes da região do Vale do Paraíba / Litoral Norte de São Paulo, também temos opções facilitadas de entrega e retirada.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq_q3">O que é filamento PLA e PETG?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a3">O PLA é um bioplástico termoplástico biodegradável de origem vegetal (milho/cana-de-açúcar), atóxico e perfeito para peças decorativas e infantis. O PETG é mais maleável, muito resistente a impactos, umidade e temperatura.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq_q4">As peças pintadas à mão desbotam?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a4">Não! Nossas peças pintadas recebem primer especial de aderência, camadas de tinta acrílica de alta qualidade e são seladas com verniz protetor fosco ou brilhante para garantir máxima durabilidade.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq_q5">Fazem vendas no atacado ou brindes corporativos?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a5">Sim! Oferecemos condições especiais e descontos progressivos para compras em quantidade, lembrancinhas de aniversário, consultórios e brindes para empresas. Fale conosco no WhatsApp para um orçamento exclusivo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CART DRAWER
+       ========================================================================== -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3 data-i18n="cart_title"><i class="fa-solid fa-cart-shopping"></i> Seu Pedido</h3>
+      <button class="close-cart-btn" id="closeCartBtn" aria-label="Fechar Carrinho">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="cart-items" id="cartItemsList">
+      <!-- Populated dynamically by app.js -->
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span data-i18n="cart_total">Total Estimado:</span>
+        <span class="cart-total-value" id="cartTotalValue">R$ 0,00</span>
+      </div>
+      <p class="cart-shipping-note" data-i18n="cart_shipping_disclaimer">
+        O frete e prazos exatos serão combinados no WhatsApp.
+      </p>
+      <button class="btn btn-whatsapp" id="cartCheckoutBtn">
+        <i class="fa-brands fa-whatsapp"></i> <span data-i18n="cart_checkout">Finalizar Pedido no WhatsApp</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       PRODUCT DETAIL MODAL
+       ========================================================================== -->
+  <div class="modal-overlay" id="productModalOverlay">
+    <div class="product-modal" id="productModal">
+      <!-- Populated dynamically by app.js -->
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Floating Direct WhatsApp Button -->
+  <a href="https://wa.me/5512991386257?text=Ol%C3%A1%2C%20Family%20Craft%203D!%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener" class="floating-wa-btn" title="Falar no WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-brand">
+            <img src="assets/images/logo.png" alt="Family Craft Logo" width="40" height="40" />
+            <div class="nav-brand-text">
+              <span>Family Craft</span>
+              <span>3D Printing Studio</span>
+            </div>
+          </div>
+          <p>
+            "Torne suas ideias realidade" • Especialistas em impressão 3D, colecionáveis pintados à mão e linha sensorial inclusiva TEA.
+          </p>
+          <div class="footer-socials">
+            <a href="https://wa.me/5512991386257" target="_blank" rel="noopener" class="social-icon-btn" title="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://instagram.com/familycraft.3d" target="_blank" rel="noopener" class="social-icon-btn" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://tiktok.com/@familycraft236" target="_blank" rel="noopener" class="social-icon-btn" title="TikTok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="#home" class="footer-link">Início</a></li>
+            <li><a href="#catalogo" class="footer-link">Catálogo Completo</a></li>
+            <li><a href="#tea" class="footer-link">Linha TEA / Sensorial</a></li>
+            <li><a href="#encomenda" class="footer-link">Sob Encomenda</a></li>
+            <li><a href="#estudio" class="footer-link">O Estúdio</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Categorias</h4>
+          <ul class="footer-links">
+            <li><a href="#catalogo" class="footer-link" onclick="document.querySelector('.filter-btn[data-category=\'sensorial\']')?.click()">Sensorial & TEA</a></li>
+            <li><a href="#catalogo" class="footer-link" onclick="document.querySelector('.filter-btn[data-category=\'geek\']')?.click()">Geek & Figuras</a></li>
+            <li><a href="#catalogo" class="footer-link" onclick="document.querySelector('.filter-btn[data-category=\'organizadores\']')?.click()">Organizadores Make</a></li>
+            <li><a href="#catalogo" class="footer-link" onclick="document.querySelector('.filter-btn[data-category=\'decor\']')?.click()">Decoração & Arte</a></li>
+            <li><a href="#catalogo" class="footer-link" onclick="document.querySelector('.filter-btn[data-category=\'natal\']')?.click()">Luminárias & Natal</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contato Direto</h4>
+          <ul class="footer-links" style="gap:1rem;">
+            <li style="display:flex; align-items:center; gap:0.6rem; color:var(--text-muted); font-size:0.88rem;">
+              <i class="fa-brands fa-whatsapp" style="color:#25d366; font-size:1.1rem;"></i> (12) 99138-6257
+            </li>
+            <li style="display:flex; align-items:center; gap:0.6rem; color:var(--text-muted); font-size:0.88rem;">
+              <i class="fa-brands fa-instagram" style="color:var(--accent-pink); font-size:1.1rem;"></i> @familycraft.3d
+            </li>
+            <li style="display:flex; align-items:center; gap:0.6rem; color:var(--text-muted); font-size:0.88rem;">
+              <i class="fa-brands fa-tiktok" style="color:var(--primary); font-size:1.1rem;"></i> @familycraft236
+            </li>
+            <li style="display:flex; align-items:center; gap:0.6rem; color:var(--text-muted); font-size:0.88rem;">
+              <i class="fa-solid fa-location-dot" style="color:var(--accent-amber); font-size:1.1rem;"></i> Vale do Paraíba - SP
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Family Craft 3D. Todos os direitos reservados. Feito com paixão pela impressão 3D.</p>
+        <p>Varejo & Atacado • Vale do Paraíba / Brasil</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/products-data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
